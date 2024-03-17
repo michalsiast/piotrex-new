@@ -96,8 +96,8 @@
     <header id="site-header" class="header">
         <div class="container-fluid p-0">
             <div class="main-header-inner d-flex align-items-center justify-content-between">
-                <a class="navbar-brand logo d-lg-inline-block d-none" href="index.html">
-                    <img class="img-fluid" src="images/logo.svg" alt="">
+                <a class="navbar-brand logo d-lg-inline-block d-none" href="/">
+                    <img class="img-fluid" src="{{asset('images/logo.png')}}" alt="">
                 </a>
                 <div class="flex-grow-1">
                     <div class="header-top">
@@ -125,8 +125,8 @@
                             <div class="col">
                                 <!-- Navbar -->
                                 <nav class="navbar navbar-expand-lg">
-                                    <a class="navbar-brand logo d-inline-block d-lg-none" href="index.html">
-                                        <img class="img-fluid" src="images/logo.svg" alt="">
+                                    <a class="navbar-brand logo d-inline-block d-lg-none" href="/">
+                                        <img class="img-fluid" src="{{asset('images/logo.png')}}" alt="">
                                     </a>
                                     <button class="navbar-toggler ht-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                         <svg width="100" height="100" viewBox="0 0 100 100">

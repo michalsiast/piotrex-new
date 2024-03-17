@@ -57,6 +57,12 @@ abstract class PageType extends Enum
         'fields' => [
             'heading_about_us' => ['head', 'Nagłówek - O nas'],
             'description_about_us' => ['text', 'Opis - O nas'],
+            'list_1_heading_about_us' => ['head', '1 Nagłówek - Czym się zajmujemy'],
+            'list_2_heading_about_us' => ['head', '2 Nagłówek - Czym się zajmujemy'],
+            'list_3_heading_about_us' => ['head', '3 Nagłówek - Czym się zajmujemy'],
+            'list_4_heading_about_us' => ['head', '4 Nagłówek - Czym się zajmujemy'],
+            'list_5_heading_about_us' => ['head', '5 Nagłówek - Czym się zajmujemy'],
+            'description_2_about_us' => ['text', 'Opis 2 - O nas'],
         ]
     ];
     const CONTACT_SHOW = [
