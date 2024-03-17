@@ -388,12 +388,8 @@ blockquote i {
 .service-item.style-1 .service-title { margin-top: 30px; }
 .service-item.style-1 .service-title h4 { margin-bottom: 20px; }
 .service-item.style-1:after { width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); position: absolute; top: 0%; left: 0%; right: 0%; content: ''; opacity: 0; transform-style: preserve-3d; transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 0) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg); -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; }
-.service-item.style-1:hover:after { transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0) skew(0deg); opacity: 1; }
-.service-item.style-1:hover .service-title h4 a, .service-item.style-1:hover p { color: var(--themeht-white-color); -webkit-transition: all 10s ease-in-out; -moz-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; }
 .service-item.style-1:hover .service-icon { color: var(--themeht-primary-color); -webkit-transition: all 10s ease-in-out; -moz-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; }
 .service-item.style-1 .service-title h4 a:hover { color: var(--themeht-primary-color); }
-.service-item.style-1:hover .arrow-btn { box-shadow: 0 0 1px 1px var(--themeht-white-color); }
-.service-item.style-1:hover .arrow-btn-text { background: transparent; color: var(--themeht-white-color); }
 .service-item.style-1:hover .service-num { background: var(--themeht-primary-color); top: 15px; right: 15px;}
 
 .service-item.style-2 { border-bottom: 1px solid var(--themeht-border-light-color); border-right: 1px solid var(--themeht-border-light-color); }

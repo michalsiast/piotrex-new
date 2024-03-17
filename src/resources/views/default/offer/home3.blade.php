@@ -1,10 +1,8 @@
-<ul class="footer-menu list-unstyled">
 @foreach($items as $item)
         <li>
-            <a href="#">{{$item->title}}</a>
+            <a href="{{route('offer.show.'.$item->id)}}">{{$item->title}}</a>
         </li>
 @endforeach
-</ul>
 
 
 

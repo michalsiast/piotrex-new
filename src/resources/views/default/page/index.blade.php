@@ -11,7 +11,7 @@
                             <h6>O nas</h6>
                             <h2 data-splitting="chars" style="padding-bottom: 20px">{{$fields->heading_about_us}}</h2>
                             {!! $fields->description_about_us !!}
-                            <a href="" class="themeht-btn primary-btn" style="margin-top: 20px">
+                            <a href="{{route('about-us.show')}}" class="themeht-btn primary-btn" style="margin-top: 20px">
                                 <span>Zobacz więcej</span>
                                 <svg class="ht-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xml:space="preserve">
             <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
@@ -19,7 +19,7 @@
                                     <line x1="18" y1="17.8" x2="18" y2="1"></line>
           </svg>
                             </a>
-                            <a href="" class="themeht-btn outline-btn ms-3">
+                            <a href="{{route('contact.show')}}" class="themeht-btn outline-btn ms-3">
                                 <span>Skontaktuj się z nami</span>
                                 <svg class="ht-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xml:space="preserve">
             <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
@@ -49,11 +49,40 @@
                         </div>
                     </div>
                 </div>
-                @include('default.realization.home')
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter style-3 text-center">
+                            <div class="counter-desc">
+                                <span class="count-number" data-count="{{$fields->number_1_counters}}">{{$fields->number_1_counters}}</span>
+                                <span>{{$fields->unit_1_counters}}</span>
+                            </div>
+                            <h6>{{$fields->heading_1_counters}}</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter style-3 text-center">
+                            <div class="counter-desc">
+                                <span class="count-number" data-count="{{$fields->number_2_counters}}">{{$fields->number_1_counters}}</span>
+                                <span>{{$fields->unit_2_counters}}</span>
+                            </div>
+                            <h6>{{$fields->heading_2_counters}}</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter style-3 text-center">
+                            <div class="counter-desc">
+                                <span class="count-number" data-count="{{$fields->number_3_counters}}">{{$fields->number_1_counters}}</span>
+                                <span>{{$fields->unit_3_counters}}</span>
+                            </div>
+                            <h6>{{$fields->heading_3_counters}}</h6>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="row align-items-center">
                     <div class="col-lg-12 mt-5 ps-lg-8 d-flex justify-content-center">
-                        <a href="" class="themeht-btn white-btn">
+                        <a href="{{route('about-us.show')}}" class="themeht-btn white-btn">
                             <span>Zobacz więcej</span>
                             <svg class="ht-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xml:space="preserve">
             <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
@@ -130,7 +159,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a href="" class="themeht-btn dark-btn ms-md-6 mt-4 mt-md-0">
+                            <a href="{{route('contact.show')}}" class="themeht-btn dark-btn ms-md-6 mt-4 mt-md-0">
                                 <span>Napisz do nas</span>
                                 <svg class="ht-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xml:space="preserve">
               <line x1="1" y1="18" x2="17.8" y2="1.2"></line>

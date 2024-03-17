@@ -1,30 +1,31 @@
 
 
 <form id="contactForm" method="POST">
+    <div class="messages"></div>
     <div class="form-group">
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="Name" class="form-control">
+        <label for="name">Imię *</label>
+        <input id="name" type="text" name="name" placeholder="Imię *" required="" class="form-control">
         <div class="invalid-feedback"></div>
     </div>
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label for="email">Email</label>
-                <input id="email" type="email" name="email" placeholder="Email" class="form-control">
+                <label for="email">Email *</label>
+                <input id="email" type="email" name="email" placeholder="Email *" required="" class="form-control">
                 <div class="invalid-feedback"></div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <label for="phone">Phone</label>
-                <input id="phone" type="text" name="phone" placeholder="Phone" class="form-control">
+                <label for="phone">Telefon *</label>
+                <input id="phone" type="text" name="phone" required="" placeholder="Telefon *" class="form-control">
                 <div class="invalid-feedback"></div>
             </div>
         </div>
     </div>
     <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Message" class="form-control"></textarea>
+        <label for="message">Wiadomość *</label>
+        <textarea id="message" name="message" rows="5" placeholder="Wiadomość *" required="" class="form-control"></textarea>
         <div class="invalid-feedback"></div>
     </div>
 
@@ -41,12 +42,9 @@
         <div class="invalid-feedback"></div>
     </div>
 
-    <input type="submit" value="Send" class="btn btn-outline-primary mb-3">
-
+    <input type="submit" value="Wyślij" class="themeht-btn primary-btn">
     <div id="alert" class="alert"></div>
 </form>
-
-
 
 @push('scripts.body.bottom')
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>

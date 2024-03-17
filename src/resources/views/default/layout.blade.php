@@ -146,7 +146,7 @@
                                             <a href="tel:{{str_replace(' ', '', getConstField('phone'))}}">{{getConstField('phone')}}</a>
                                         </div>
                                     </div>
-                                    <a class="themeht-btn dark-btn" href="#">
+                                    <a class="themeht-btn dark-btn" href="{{route('contact.show')}}">
                                         <span>Kontakt</span>
                                         <svg class="ht-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xml:space="preserve">
                     <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
@@ -209,7 +209,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <h5>Oferta</h5>
-                        @include('default.offer.home3')
+                        <ul class="footer-menu list-unstyled">
+                            @include('default.offer.home3')
+                        </ul>
                     </div>
                 </div>
             </div>

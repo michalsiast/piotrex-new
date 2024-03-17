@@ -23,6 +23,15 @@ abstract class PageType extends Enum
             'heading_about_us' => ['head', 'Nagłówek - O nas'],
             'description_about_us' => ['text', 'Opis - O nas'],
             'heading_statistics' => ['head', 'Nagłówek - Statystyki'],
+            'number_1_counters' => ['head', 'Liczba 1 - Liczniki'],
+            'heading_1_counters' => ['head', 'Nagłówek 1 - Liczniki'],
+            'unit_1_counters' => ['head', 'Jednostka 1 - Liczniki'],
+            'number_2_counters' => ['head', 'Liczba 2 - Liczniki'],
+            'heading_2_counters' => ['head', 'Nagłówek 2 - Liczniki'],
+            'unit_2_counters' => ['head', 'Jednostka 2 - Liczniki'],
+            'number_3_counters' => ['head', 'Liczba 3 - Liczniki'],
+            'heading_3_counters' => ['head', 'Nagłówek 3 - Liczniki'],
+            'unit_3_counters' => ['head', 'Jednostka 3 - Liczniki'],
             'heading_services' => ['head', 'Nagłówek - Usługi'],
             'heading_contact' => ['head', 'Nagłówek - Kontakt'],
             'description_contact' => ['text', 'Opis - Kontakt'],
@@ -46,7 +55,8 @@ abstract class PageType extends Enum
         'name' => 'about-us.show',
         'module' => false,
         'fields' => [
-            'text1' => ['text', '']
+            'heading_about_us' => ['head', 'Nagłówek - O nas'],
+            'description_about_us' => ['text', 'Opis - O nas'],
         ]
     ];
     const CONTACT_SHOW = [

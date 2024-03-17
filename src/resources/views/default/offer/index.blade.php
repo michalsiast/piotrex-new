@@ -1,12 +1,12 @@
 @extends('default.layout')
 @section('content')
+    @include('default.subheader', ['pageName' => $page->name])
 
-    <ul>
-        @foreach($items as $item)
-            <li>
-                {{$item->title}}
-            </li>
-        @endforeach
-    </ul>
-
+    <section>
+        <div class="container">
+            <div class="row gx-5">
+                @include('default.offer.home')
+            </div>
+        </div>
+    </section>
 @endsection

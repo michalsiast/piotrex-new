@@ -1,19 +1,18 @@
 @foreach($items as $item)
     <div class="col-lg-4 col-md-6 mb-5">
         <div class="service-item style-1">
-            <div class="service-image" data-bg-img="images/services/large/01.jpg"></div>
             <span class="service-num">{{$loop->iteration}}</span>
             <div class="service-desc">
                 <div class="service-icon">
-                    <i class="flaticon-skyline"></i>
+                    <img src="{{ renderImage($item->galleryCover(), 80, 80, 'cover') }}" style="width: 80px; height: 80px" />
                 </div>
                 <div class="service-title">
                     <h4>
-                        <a href="">{{$item->title}}</a>
+                        <a href="{{route('offer.show.'.$item->id)}}">{{$item->title}}</a>
                     </h4>
                 </div>
                {!! $item->lead !!}
-                <a href="" class="read-button">
+                <a href="{{route('offer.show.'.$item->id)}}" class="read-button">
                     <span class="arrow-btn"></span>
                     <span class="arrow-btn-circle">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right" viewBox="0 0 21 12">

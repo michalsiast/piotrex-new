@@ -71,11 +71,6 @@ return [
                         'icon' => 'arrow-up-left',
                         'route_name' => 'admin.offer.index',
                     ],
-                    'offer_category' => [
-                        'label' => 'admin.offer_category.plural',
-                        'icon' => 'arrow-up-left',
-                        'route_name' => 'admin.offer_category.index',
-                    ],
                 ]
             ],
             'realization' => [
