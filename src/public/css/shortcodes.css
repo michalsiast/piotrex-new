@@ -18,7 +18,7 @@
   10. Featured Box
   11. Testimonials
   12. Service Box
-  13. Price Table   
+  13. Price Table
   14. Progress Bar
   15. Portfolio Item
   16. Swiper Arrow
@@ -96,7 +96,7 @@
 .header-marquee .marquee-wrap { animation: marquee 100s linear infinite; }
 .header-marquee .marquee-text { font-size: 16px; font-weight: 500; color: var(--themeht-secondary-color); text-transform: capitalize; }
 .header-marquee .marquee-text i { margin: 0 30px; font-size: 18px; line-height: 1; color: var(--themeht-secondary-color); }
-    
+
 
 /* ------------------------
     Accordion
@@ -176,7 +176,7 @@
 .counter.style-2 h6 { margin-top: 0; }
 .counter.style-2 .counter-text span { font-size: 16px; }
 .counter.style-3 .counter-desc span { font-size: 100px; color: #1a3256; font-weight: 700; }
-.counter.style-3 h6 { color: var(--themeht-white-color); position: absolute; top: 50%; left: 0; width: 100%; text-align: center; margin: 0; transform: translateY(-50%); }
+.counter.style-3 h6 { color: var(--themeht-white-color);  width: 100%; text-align: center; margin: 0; transform: translateY(-50%); }
 
 
 /* ------------------------
@@ -253,7 +253,7 @@
     background-size: 100% 100%;}
 .widget .recent-post-desc .post-date{font-size: 15px;}
 
-/*widget-Categories*/ 
+/*widget-Categories*/
 .widget .widget-categories li {display: block; padding: 15px 0; border-bottom: 1px dashed var(--themeht-border-light-color); position: relative;}
 .widget .widget-categories li:first-child{padding-top: 0;}
 .widget .widget-categories li:last-child{padding-bottom: 0; border-bottom: none;}
@@ -261,12 +261,12 @@
 .widget .widget-categories li a:hover {color: var(--themeht-secondary-color); padding-left: 5px;}
 .widget-categories li i {position: absolute; right: 0; }
 
-/*widget-tags*/ 
+/*widget-tags*/
 .widget .widget-tags li {display: inline-block; margin: 5px 5px 15px 0;}
 .widget .widget-tags li a {font-size: 16px; line-height: 26px; font-weight: 500; text-transform: capitalize; background: var(--themeht-bg-light-color); color: var(--themeht-text-color); padding: 5px 15px; display: inline-block; text-align: center;}
 .widget .widget-tags li a:hover{background: var(--themeht-primary-color); color: var(secondary);}
 
-/*post-tags*/ 
+/*post-tags*/
 .post-tags li {display: inline-block; margin: 5px 5px 15px 0;}
 .post-tags li a {background: var(--themeht-bg-light-color); border-radius: 30px; color: var(--themeht-text-color); padding: 5px 15px; display: inline-block; text-align: center; font-weight: normal;}
 .post-tags li a:hover{background: var(--themeht-primary-color); color: var(--themeht-white-color);}
@@ -376,7 +376,7 @@ blockquote i {
 .service-item .service-title h4 a { color: var(--themeht-text-color); display: inline; position: relative; width: 100%; background-repeat: no-repeat; background-image: linear-gradient(transparent calc(100% - 1px), currentColor 1px); transition: .9s cubic-bezier(.32, .32, .15, 1.17); background-size: 0 100%; }
 .service-item .service-title h4 a:hover { color: var(--themeht-secondary-color); background-size: 100% 100%; }
 .arrow-button { font-size: 70px; color: transparent; -webkit-text-stroke: 1px black; transform: rotate(-45deg); line-height: 1; }
-  
+
 .service-item.style-1 { background: var(--themeht-white-color); box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07); padding: 80px 35px 40px; position: relative; transform-style: preserve-3d; overflow: hidden; }
 .service-item.style-1:hover { transform: scale(1.08) translateZ(0); }
 .service-item.style-1 .service-desc { position: relative; z-index: 9; }
@@ -518,7 +518,7 @@ blockquote i {
 
 
 /* ------------------------
-  Swiper Arrow 
+  Swiper Arrow
 ------------------------*/
 .swiper .swiper-button-prev { left: 0; }
 .swiper .swiper-button-next { right: 0; }
@@ -712,7 +712,7 @@ a.video-popup { position: relative; display: inline-block; text-align: center; f
        -webkit-transform: translateY(0);
     }
  }
- 
+
  @keyframes smoothScroll {
     0% {
        opacity: 0;

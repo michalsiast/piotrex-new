@@ -30,7 +30,7 @@
                         <div class="card-body">
 
 
-                            {!! $form->renderFieldGroup('realization_category_id') !!}
+{{--                            {!! $form->renderFieldGroup('realization_category_id') !!}--}}
                             {!! $form->renderFieldGroup('title') !!}
                             {!! $form->renderFieldGroup('lead') !!}
                             {!! $form->renderFieldGroup('text') !!}

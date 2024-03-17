@@ -357,3 +357,7 @@ p { margin: 0 0 25px; line-height: 1.6;}
     /*Other*/
     .social-icons.footer-social li a { height: 45px; width: 45px; line-height: 45px; font-size: 26px; }
 }
+
+.text-black-p-tag{
+    color: #000;
+}
