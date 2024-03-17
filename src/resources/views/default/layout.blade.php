@@ -209,20 +209,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <h5>Oferta</h5>
-                        <ul class="footer-menu list-unstyled">
-                            <li>
-                                <a href="#">Privacy</a>
-                            </li>
-                            <li>
-                                <a href="#">Career</a>
-                            </li>
-                            <li>
-                                <a href="project-single.html">Projects</a>
-                            </li>
-                            <li>
-                                <a href="blog-single.html">Blogs</a>
-                            </li>
-                        </ul>
+                        @include('default.offer.home3')
                     </div>
                 </div>
             </div>
